@@ -1,38 +1,80 @@
-.App {
+.menu{
+  background: rgb(25, 189, 230);
+  padding: 10px;
+}
+.menu > a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.menu > a:hover{
+  background: rgb(3, 126, 156);
+}
+.container{
+  padding: 10px 20px;
+  background: rgb(230, 230, 230);
+  height: 100vh;
+}
+.container > h1 {
   text-align: center;
+  border-bottom: 2px solid rgb(165, 230, 247);
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+.cardPost{
+  background: white;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.cardInfo{
+  background: white;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.cardPost:hover {
+  background: rgba(25, 189, 230, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardPost > p {
+  margin: 0 0 12px 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardPost > h3 {
+  margin: 0 0 6px 0;
+  padding: 0 !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+.btnInfo{
+  background: rgb(4, 192, 192);
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(30, 202, 202);
+  cursor: pointer;
+  margin: 8px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btnWarning{
+  background: rgb(243, 61, 61);
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(221, 66, 112);
+  cursor: pointer;
+  margin: 8px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover{
+  background: rgb(105, 105, 105);   
+}
+input{
+  width: 80%;
+  height: 20px;
 }
